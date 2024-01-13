@@ -1,0 +1,29 @@
+
+  <div class="app-container">
+
+    <div class="app-header">
+      <button mat-icon-button class="menu-button" (click)="drawer.toggle()">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <h2>Task Definelabs</h2>
+    </div>
+  
+    <mat-drawer-container class="example-container">
+      <mat-drawer mode="side" opened #drawer>
+        <mat-list>
+          <mat-list-item [routerLink]="['/all-matches']">All Matches</mat-list-item>
+          <mat-list-item [routerLink]="['/saved-matches']">Saved Matches</mat-list-item>
+        </mat-list>
+      </mat-drawer>
+  
+      <mat-drawer-content>
+        <router-outlet></router-outlet>
+      </mat-drawer-content>
+    </mat-drawer-container>
+  
+    <div class="app-footer">
+      <p>&copy; Copyright by Definelabs</p>
+    </div>
+  </div>
+  
+  

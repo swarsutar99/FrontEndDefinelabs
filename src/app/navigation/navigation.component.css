@@ -1,0 +1,95 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.app-header {
+  background-color: #4285f4;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.header-content {
+  flex-grow: 1; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-button {
+  border-radius: 50%;
+  background-color: #f1f1f1;
+  transition: background-color 0.3s ease;
+  margin-right: 8px;
+}
+
+.menu-button:hover {
+  background-color: #e0e0e0;
+}
+
+.app-header h2 {
+  margin: 0;
+}
+
+.app-footer {
+  background-color: #e0e0e0;
+  text-align: center;
+  padding: 10px;
+  margin-top: auto;
+}
+
+.example-container {
+  display: flex;
+  height: 100%;
+}
+
+mat-drawer {
+  width: 200px;
+}
+
+mat-list-item {
+  cursor: pointer;
+  padding: 10px;
+}
+
+mat-list-item:hover {
+  background-color: #f0f0f0;
+}
+
+mat-drawer-content {
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+mat-drawer {
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+mat-drawer,
+mat-list-item {
+  background-color: #fff;
+}
+
+mat-icon {
+  font-size: 24px;
+}
+
+
+.mat-row:hover {
+  background-color: #f0f0f0;
+}
+
+.mat-row:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.mat-row {
+  transition: background-color 0.3s;
+}
+
+.mat-sort-header {
+  cursor: pointer;
+}

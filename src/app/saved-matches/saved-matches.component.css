@@ -1,0 +1,58 @@
+
+.inbox-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .inbox-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #202124; 
+  }
+  
+  .match-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .match-table th, .match-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    font-size: 14px;
+    color: #202124; 
+  }
+  
+  .match-table th {
+    background-color: #f1f3f4; 
+  }
+  
+  .match-table td {
+    background-color: #fff;
+  }
+  
+  .star-icon {
+    cursor: pointer;
+  }
+  
+  .star-icon:hover {
+    background-color: #f0f0f0; 
+  }
+  
+  .match-table tr:first-child td {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .match-table tr:last-child td {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
